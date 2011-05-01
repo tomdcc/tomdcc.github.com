@@ -1,0 +1,36 @@
+  body { text-align: center; }
+  header {
+    height: 263px;
+    background-image: url(../img/site/london-grey-long-960.jpg);
+    position: relative;
+  }
+  header h1 {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    font-size: xx-large;
+    color: white;
+  }
+  #container {
+    width: 960px;
+    margin: 0 auto;
+  }
+#about {
+  text-align: left;
+  float: right;
+}
+
+ #main-content {
+    text-align: left;
+    width: 35em;
+    margin: 0 auto;
+ } 
+
+ .blog-post h2 {
+    font-size: x-large;
+    margin-bottom: 0.3em;
+    margin-top: 0.5em;
+  }
+ .blog-post p {
+    margin-bottom: 1em;
+ } 

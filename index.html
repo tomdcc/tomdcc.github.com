@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{% for post in site.posts limit:5 %}
+        <div class='blog-post'>
+<h2>{{post.title}}</h2>
+<div class='blog-post-content'>{{post.content}}</div>
+<div class='footer'>
+<a href='{{post.url}}'>Permanent Link</a>
+</div>
+</div>
+{% endfor %}
+

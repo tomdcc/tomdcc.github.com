@@ -1,0 +1,11 @@
+/* TEAM */
+Lead Scapegoat: Tom Dunstan
+Site: www.tomd.cc
+Twitter: @tomdcc
+
+/* THANKS */
+
+/* SITE */
+Standards: HTML5, CSS3
+Components: Modernizr, jQuery
+Software: html5boilerplate, jekyll
