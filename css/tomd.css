@@ -18,6 +18,25 @@
 #about {
   text-align: left;
   float: right;
+  width: 15em;
+  font-size: 90%;
+}
+#about .logo {
+  display: block;
+  float: left;
+  margin-top : 5px;
+}
+#about .logo img {
+  width: 32px;
+}
+#about p {
+  margin-left: 37px;
+}
+#about p.centre a {
+  text-decoration: none;
+}
+#about p.centre img {
+  vertical-align: middle;
 }
 
  #main-content {
@@ -25,22 +44,21 @@
     width: 35em;
     margin: 0 auto;
  } 
-
  .blog-post h2 {
     font-size: x-large;
     margin-bottom: 0.3em;
     margin-top: 0.5em;
   }
- .blog-post p {
-    margin-bottom: 1em;
- }
- .blog-post ul { 
-    margin-bottom: 1em;
- }
- .blog-post blockquote {
+p {
+   margin-bottom: 1em;
+}
+ul { 
+   margin-bottom: 1em;
+}
+blockquote {
     padding-left: 2em;
     font-style: italic;
- }
- .blog-post em {
+}
+em {
    font-style: italic;
- }
+}
