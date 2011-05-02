@@ -33,4 +33,14 @@
   }
  .blog-post p {
     margin-bottom: 1em;
- } 
+ }
+ .blog-post ul { 
+    margin-bottom: 1em;
+ }
+ .blog-post blockquote {
+    padding-left: 2em;
+    font-style: italic;
+ }
+ .blog-post em {
+   font-style: italic;
+ }
