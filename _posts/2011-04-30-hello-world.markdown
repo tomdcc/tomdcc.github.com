@@ -2,15 +2,4 @@
 title: Hello World!
 layout: post
 ---
-O hai
-
-blah blah
-
-Here is a list:
- - one
- - two
- - ??
- - profit!
-
-bye for now
-
+After a long hiatus from blogging, I've set up a new site. If you're reading this, congratulations on finding it!
