@@ -6,7 +6,9 @@ layout: default
 <h2>{{post.title}}</h2>
 <div class='blog-post-content'>{{post.content}}</div>
 <div class='footer'>
-<a href='{{post.url}}'>Permanent Link</a>
+<a class='permalink' href='{{post.url}}'>Permanent Link</a>
+-
+<a class='comments' href='{{post.url}}#disqus_thread'>Comments</a>
 </div>
 </div>
 {% endfor %}
