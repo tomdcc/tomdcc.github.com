@@ -1,6 +1,7 @@
 ---
 title: Government ICT vs Agile
 layout: post
+description: There is a guest article written by Alistair Maughan, a corporate IT lawyer, over at Computer Weekly claiming that agile software development will never work in government ICT projects. Hmmm.
 ---
 There is a [guest article](http://www.computerweekly.com/blogs/public-sector/2011/04/agile-will-fail-govit-says-cor.html) written by Alistair Maughan, a corporate IT lawyer, over at Computer Weekly claiming that agile software development will never work in government ICT projects.
 

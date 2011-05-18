@@ -4,5 +4,6 @@ exclude: test build rawimages
 
 # metadata
 title: tomd.cc
+description: Tom Dunstan's blog and random musings
 baseUrl: http://www.tomd.cc
 fbAppId: 143294359077628

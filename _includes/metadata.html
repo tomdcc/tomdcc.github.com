@@ -26,6 +26,14 @@
     <meta property="og:image" content="{{site.baseUrl}}/img/site/logo.png" />
 {% endif %}
 
+{% if page.description %}
+    <meta property="og:description" content="{{page.description}}" />
+{% else %}
+    <meta property="og:description" content="{{site.description}}" />
+{% endif %}
+
+
+
 <script type="text/javascript">
   var disqus_shortname = 'tomdcc';
   var fbAppId = '{{site.fbAppId}}';
