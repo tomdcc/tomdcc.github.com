@@ -1,5 +1,3 @@
-// var disqus_shortname = 'tomdcc';
-// var fbAppId = '{{site.fbAppId}}';
 $(document).ready(function() {
     FB.init({appId: fbAppId, status: true, cookie: true, xfbml: true});
 
