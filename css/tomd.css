@@ -62,3 +62,7 @@ blockquote {
 em {
    font-style: italic;
 }
+
+.share {
+    margin: 0.5em 0;
+}

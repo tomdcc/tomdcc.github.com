@@ -2,12 +2,13 @@
 layout: default
 ---
 <div class='blog-post'>
-<h2>{{page.title}}</h2>
-<div class='blog-post-content'>{{content}}</div>
-<div class='footer'>
-<a href='{{post.url}}'>Permanent Link</a>
-</div>
-<div id="disqus_thread"></div>
+  <h2>{{page.title}}</h2>
+  <div class='blog-post-content'>{{content}}</div>
+  <div class='footer'>
+    <a href='{{post.url}}'>Permanent Link</a>
+    {% include share.html %}
+  </div>
+  <div id="disqus_thread"></div>
 <script>
  var disqus_identifier = '{{post.url}}';
  var disqus_url = 'http://www.tomd.cc{{post.url}}';
