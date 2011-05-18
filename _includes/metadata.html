@@ -1,0 +1,32 @@
+{% if page.title %}
+    <title>{{page.title}} - {{site.title}}</title>
+    <meta property="og:title" content="{{page.title}}" />
+{% else %}
+    <title>{{site.title}}</title>
+    <meta property="og:title" content="{{site.title}}" />
+{% endif %}
+
+<meta property="og:site_name" content="{{site.title}}" />
+<meta property="fb:app_id " content="{{site.fbAppId}}" />
+
+<!--<meta name="description" content="">-->
+<!--<meta name="author" content="">-->
+
+{% if page.url and page.url != '/index.html' %}
+    <meta property="og:url" content="{{site.baseUrl}}{{page.url}}" />
+    <meta property="og:type" content="article" />
+{% else %}
+    <meta property="og:url" content="{{site.baseUrl}}/" />
+    <meta property="og:type" content="blog" />
+{% endif %}
+
+{% if page.image %}
+    <meta property="og:image" content="{{site.baseUrl}}/{{page.image}}" />
+{% else %}
+    <meta property="og:image" content="{{site.baseUrl}}/img/logo.png" />
+{% endif %}
+
+<script type="text/javascript">
+  var disqus_shortname = 'tomdcc';
+  var fbAppId = '{{site.fbAppId}}';
+</script>

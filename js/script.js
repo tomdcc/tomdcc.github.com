@@ -1,5 +1,8 @@
- var disqus_shortname = 'tomdcc';
+// var disqus_shortname = 'tomdcc';
+// var fbAppId = '{{site.fbAppId}}';
 $(document).ready(function() {
+    FB.init({appId: fbAppId, status: true, cookie: true, xfbml: true});
+
     if($('#disqus_thread').length > 0) {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';

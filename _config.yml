@@ -1,3 +1,8 @@
 pygments: true
 permalink: pretty
 exclude: test build rawimages
+
+# metadata
+title: tomd.cc
+baseUrl: http://www.tomd.cc
+fbAppId: 143294359077628
